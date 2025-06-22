@@ -1,0 +1,108 @@
+.carritoMain{
+    min-height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 140px 0 50px;
+}
+.lista-carrito{
+    position: relative;
+    height: fit-content;
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.lista-carrito h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.lista-carrito table, .lista-carrito table tbody, .lista-carrito table tbody tr{
+    width: 100%;
+    border-collapse: collapse;
+}
+.lista-carrito table tbody tr th{
+    width: 20%;
+    border-bottom: 1px solid black;
+}
+#carrito-vacio-txt{
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+.lista-carrito table tr td{
+    text-align: center;
+}
+.lista-carrito table tr td img{
+    width: 100px;
+}
+.comprar-elemento{
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(9,9,121,1);
+    cursor: pointer;
+}
+.lista-carrito table tr td button:hover{
+    font-size: 17px;
+}
+.lista-carrito table tr td button:active{
+    font-size: 16px;
+}
+.eliminar-carrito{
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(214, 54, 54);
+    cursor: pointer;
+    margin-left: 10px;
+}
+.comprar-todo{
+    position: absolute;
+    top: 90px;
+    right: 180px;
+    width: 160px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(9,9,121,1);
+    cursor: pointer;
+}
+.vaciar-carrito{
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 160px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(214, 54, 54);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.lista-carrito button:hover{
+    font-size: 17px;
+}
+.lista-carrito button:active{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
