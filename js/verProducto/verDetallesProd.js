@@ -31,7 +31,7 @@ export function crearImgProdDetalles() {
 
 //cargar info de producto
 export function cargarInfoProducto() {
-    let {nombre, detalles, precioProd = producto.precio} = JSON.parse(localStorage.getItem('ProductoVer'));
+    let {nombre, detalles, precio} = JSON.parse(localStorage.getItem('ProductoVer'));
     let title = document.querySelector('.productoDetalles-descripcion-title');
 
     if (title){
@@ -40,8 +40,8 @@ export function cargarInfoProducto() {
         let info = document.querySelector('.productoDetalles-descripcion-info');
         info.textContent = detalles;
 
-        let precio = document.querySelector('.productoDetalles-descripcion-precio');
-        precio.textContent = `$ ${precioProd}`;
+        let precioEl = document.querySelector('.productoDetalles-descripcion-precio');
+        precioEl.textContent = `$ ${precio}`;
     }
 }
 
