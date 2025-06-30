@@ -1,26 +1,44 @@
-<h1 align="center">JS Practice Project =><a href='https://overcomeyourlimits.netlify.app/'>"Overcome Yout Limits"</a><= </h1>
-<br>
-<div align="center">
-  <div>
-    <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-javascript-9294848-7577991.png?f=webp" alt="javascript" />
-  </div>
-</div>
+# 🛍️ Tienda de Ropa - SPA Vanilla JS
 
-<h2 align='center'>Description / Descripción</h2>
+Una tienda de ropa funcional desarrollada **solo con HTML, CSS y JavaScript**, sin frameworks ni librerías. Funciona como una **Single Page Application (SPA)** y simula una base de datos mediante `JSON` y `localStorage`.
 
-This is a "Overcome your limits" practice page, a javascript project created for practice.
+---
 
-<h2 align='center'>Tech Stack / Tecnologías</h2>
+## 🚀 Funcionalidades
 
-- JavaScript
-- HTML
-- CSS
+- 🔄 Navegación sin recarga de página
+- 🛒 Carrito de compras persistente (usando `localStorage`)
+- 📦 Control dinámico de stock por producto
+- 🧾 Modal de compra con selección de cantidad
+- ✅ Validación de stock antes de agregar al carrito
+- 📉 Botón de “Agotado” automático
+- 📱 Responsive para desktop y mobile
+- 🔔 Notificaciones estilo toast para acciones del usuario
+- 📁 Arquitectura basada en componentes (`./components/`)
+- 📂 Separación modular de CSS por áreas
 
-<h2 align='center'>Features / Funcionalidades</h2>
+---
 
-**Completely Responsive**  
-Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.  
-**Totalmente responsivo**  
-Accesibilidad garantizada y visualización óptima en cualquier dispositivo gracias a un diseño adaptable.
+## 🧰 Tecnologías
 
-<h2 align='center'>Guillermo Vera - Front End - Web Dev</h2>
+- HTML5
+- CSS3 (media queries, responsive, animaciones)
+- JavaScript (modular, eventos, manipulación DOM, `fetch`, `localStorage`)
+
+---
+
+
+---
+
+## 🧪 ¿Cómo probarlo?
+
+1. Cloná el repo o descargalo.
+2. Abrí `index.html` con Live Server o directamente en el navegador.
+3. Navegá entre categorías y agregá productos al carrito. El stock se actualiza en tiempo real.
+
+---
+
+## ✨ Autor
+
+**Guillermo Vera**  
+Desarrollador autodidacta en formación.  
